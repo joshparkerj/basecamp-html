@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.navbar {
+    color: #FFFFFF;
+    background-color: #707070;
+    margin: 0;
+    padding: 1.3vw;
+}
+
+h2 {
+    margin: 0;
+    margin-left: 2vw;
+    display: inline;
+    font-size: 3.8vw;
+    font-weight: lighter;
+}
+
+ul {
+    float: right;
+    display: inline;
+    margin: 0;
+    margin-top: 1vw;
+    list-style: none;
+    
+}
+
+li {
+    font-size: 2vw;
+    display: inline;
+    padding: 2.5vw;
+}
+
+.page-heading {
+    color: #E9E05F;
+    background-color: #000000;
+    padding: 12vw;
+    text-align: center;
+    font-size: 7vw;
+    margin: 0;
+    font-family: "Bahnschrift Condensed";
+}
+
+.main-content {
+    background-color: #FFFFFF;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.top-row {
+    display: inline-block;
+    height: 23vw;
+    width: 23vw;
+    margin: auto;
+    margin-top: 5vw;
+    background-color: #A4FFD7;
+    grid-column: span 2;
+    border-radius: 2vw;
+}
+
+.middle-row {
+    display: inline-block;
+    height: 22vw;
+    width: 42vw;
+    margin: auto;
+    margin-top: 5vw;
+    background-color: #FFC36C;
+    grid-column: span 3;
+}
+
+.bottom-row {
+    display: inline-block;
+    grid-column: span 3;
+    height: 14vw;
+    width: 34vw;
+    margin: auto;
+    margin-top: 5vw;
+}
+
+p {
+    font-size: 1.3vw
+}
+
+img {
+    height: 14vw;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #3A3A56;
+    height: 11vw;
+    margin-top: 5vw;
+}
